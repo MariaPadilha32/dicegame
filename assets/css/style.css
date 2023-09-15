@@ -1,8 +1,25 @@
-h1 {
-    color: pink;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Public+Sans:wght@300&display=swap');
 
-p {
-    color:blue;
-    font-size: x-large;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+     background-color: #D8BFD8;
+     color: #FFD700;
+ }
+
+ h1 {
+     position: absolute;
+     text-align: center;
+     left: 0;
+     width: 100%;
+     padding-top: 10px;
+ }
+
+ #backgroundimage {
+     background: url('../images/bench.jpg') no-repeat center center;
+     width: 100%;
+     height: 100vh;
+     padding: 30px 10px 20px;
+ }
